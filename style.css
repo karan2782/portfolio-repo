@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(50, 20, 70);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(188, 39, 207);
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(185, 136, 231);
+    font-size: 1.06rem;
+}
+
+.left {
+    font-size: 1.8rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.4rem;
+}
+
+.leftSection .btns{
+    display: flex;
+    margin: 100px 0;
+    justify-content: center;
+    
+    
+}
+.btns .btn{
+    background-color:rgb(188, 39, 207) ;
+    color: white;
+    border-radius: 7px;
+    border: 2px solid rgb(188, 39, 207);
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 4px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.rightSection img {
+    width: 100%;
+}
+
+.namek {
+    color: rgb(188, 39, 207);
+}
+
+#element {
+    color: rgb(188, 39, 207);
+}
+
+main hr {
+
+    margin: 60px 80px;
+    color: rgb(188, 39, 207);
+
+}
+
+.secondSection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 60px;
+}
+
+.secondSection .aboutWord {
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(188, 39, 207);
+}
+
+.secondSection .aboutBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secondSection .image img {
+    height: 195px;
+    width: 202px;
+}
+
+.secondSection .aboutPara {
+    
+    width: 650px;
+}
+.aboutPara span{
+    color:  rgb(188, 39, 207);
+}
+
+.thirdSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 100%;
+    width: 100%;
+    
+    
+    
+}
+.thirdSection>h1{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+.Skill{
+    border: 2px solid black;
+    background-color: black;
+    height: 200px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.skills{
+    display: flex;
+    margin: 23px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.skills img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.techstack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    row-gap: 60px;
+    width: 100%;
+    height: 100%;
+}
+.techstack h1{
+    text-decoration: underline;
+    text-decoration-color: rgb(188, 39, 207) ;
+    color: black;
+    font-size: 30px;
+}
+.techstacks{
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.techstacks img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.tools{
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.toolsImg{
+    text-align: center;
+}
+.tools img{
+    height:80px;
+    width: 90px;
+}
+.tools h4{
+    color: black;
+}
+
+.forthSection{
+    height: 100%
+    
+}
+.forthSection .pack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 55px;
+}
+.forthSection .pack h1{
+    text-decoration: underline;
+    
+}
+.forthSection .pack-horizontal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 12px;
+    column-gap: 20px;
+}
+.forthSection .project{
+    border: 2px solid rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+    height: 400px;
+    width: 240px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.39);
+
+}
+.forthSection .project img{
+    height: 140px;
+    width: 180px;
+    border-radius: 7px;
+}
+.forthSection .project p{
+    font-size: 12px;
+    text-align: center;
+}
+.project h4{
+    text-decoration: underline;
+}
+.forthSection .project .btn-project{
+    display: flex;
+    margin-top: 5px;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    column-gap: 23px;
+    
+}
+
+.forthSection .project .btn-project button{
+   
+    padding: 10px;
+    border-radius: 9px;
+    border: 2px solid black;
+    background-color: black;  
+    cursor: pointer;
+}
+.btn-project button a{
+    color: white;
+    text-decoration: none;
+}
+.fifthSection{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    row-gap: 40px;
+    padding: 23px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    row-gap: 20px;
+    
+}
+
+.contact-info{
+    display: flex;
+    column-gap: 9px;
+    justify-content: left;
+    align-items: center;
+}
+
+.fifthSection h1{
+    text-decoration: underline;
+    text-decoration-color: rgb(188, 39, 207);
+}
+.contact-info img{
+    height: 38px;
+    width: 50px;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(188, 39, 207);
+}
+
+/* small screen  */
+@media all and (min-width:200px) and (max-width:375px) {
+    nav{
+        width: 100vw;
+        justify-content: space-evenly;
+
+    }
+    nav .left{
+        font-size: 12px;
+        padding: 5px;
+        
+    }
+    nav .right ul li{
+        font-size: 10px;
+        margin: 4px;
+     
+    }
+    nav .right ul li a:hover{
+        font-size: 15px;
+        color: purple;
+    }
+    
+    .leftSection{
+        font-size: 25px;
+    }
+    
+
+    .rightSection img{
+        width: 100%;
+
+    }
+
+    .secondSection h1{
+        font-size: 16px;
+    }
+    .aboutPara p{
+        font-size: 12px;
+    }
+    .secondSection .image img{
+        height: 120px;
+        width: 120px;
+        margin: 0 20px;
+    }
+    .secondSection .aboutWord{
+        font-size: 1rem;
+    }
+    .secondSection .aboutBox{
+        display: flex;
+        
+        justify-content: space-evenly;
+    }
+}
+
+/* medium screen  */
+@media all and (min-width:376px) and (max-width:900px){
+    nav{
+        width: 100vw;
+        justify-content: space-evenly;
+
+    }
+    nav .left{
+        font-size: 15px;
+        padding: 5px;
+        
+    }
+    nav .right ul li{
+        font-size: 10px;
+        margin: 6px;
+     
+    }
+    nav .right ul li a:hover{
+        font-size: 15px;
+        color: purple;
+    }
+    
+    .leftSection{
+        font-size: 25px;
+    }
+
+    .rightSection img{
+        width: 100%;
+
+    }
+
+    .secondSection h1{
+        font-size: 20px;
+    }
+    .aboutPara p{
+        font-size: 13px;
+    }
+    .secondSection .image img{
+        height: 150px;
+        width: 150px;
+        margin: 0 20px;
+    }
+    .secondSection .aboutWord{
+        font-size: 1.8rem;
+    }
+    .secondSection .aboutBox{
+        display: flex;
+        
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-width:635px){
+
+    .skills{
+        flex-direction: column;
+    }
+    .thirdSection>h1{
+        font-size: 1.8rem;
+    }
+
+    .btns .btn{
+        height: 40px;
+        font-size: 12px;
+        width: 150px;
+        
+
+    }
+}
