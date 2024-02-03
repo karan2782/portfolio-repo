@@ -473,3 +473,20 @@ footer{
 
     }
 }
+
+
+@media all and (min-width:275px) and (max-width:450px){
+    #about .aboutBox{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+        
+    }
+    #about .aboutPara{
+        width: 100%;
+    }
+
+}
