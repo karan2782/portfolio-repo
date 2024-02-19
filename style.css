@@ -354,6 +354,13 @@ main hr {
     height: 38px;
     width: 50px;
 }
+.contact-info a{
+    color: black;
+    text-decoration: none;
+}
+.contact-info :hover{
+    font-size: 18px;
+}
 
 footer{
     height: 10vh;
