@@ -275,7 +275,7 @@ main hr {
 .forthSection .project{
     border: 2px solid rgba(0, 0, 0, 0.151);
     border-radius: 10px;
-    height: 400px;
+    height: 450px;
     width: 240px;
     padding: 10px;
     display: flex;
@@ -295,6 +295,9 @@ main hr {
     font-size: 12px;
     text-align: center;
 }
+.project li{
+    font-size: 12px;
+}
 .project h4{
     text-decoration: underline;
 }
@@ -306,6 +309,7 @@ main hr {
     column-gap: 23px;
     
 }
+
 
 .forthSection .project .btn-project button{
    
