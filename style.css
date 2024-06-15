@@ -9,6 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -55,10 +56,12 @@ nav ul li a:hover {
     justify-content: space-around;
     margin: 140px 0;
     align-items: center;
+    
 }
 
 .firstSection>div {
     width: 30%;
+    margin-top:100px ;
 }
 
 .leftSection {
@@ -117,12 +120,14 @@ main hr {
     flex-direction: column;
     text-align: center;
     row-gap: 60px;
+    
 }
 
 .secondSection .aboutWord {
     font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-color: rgb(188, 39, 207);
+    margin-top: 100px;
 }
 
 .secondSection .aboutBox {
@@ -159,6 +164,7 @@ main hr {
     font-size: 2rem;
     text-decoration: underline;
     margin: 10px 0;
+    margin-top: 100px;
 }
 .Skill{
     border: 2px solid black;
@@ -261,6 +267,7 @@ main hr {
 .forthSection .pack h1{
     text-decoration: underline;
     text-decoration-color: rgb(188, 39, 207);
+    margin-top: 100px;
     
 }
 .forthSection .pack-horizontal{
